@@ -1,0 +1,78 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h1 {
+    color: crimson;
+}
+
+p {
+    color: rgb(6, 108, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+p.paragraf {
+    color: rgb(171, 77, 1);
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5cm;
+}
+
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url(hand_painted_watercolour_backgorund_in_earth_tone_colours_2401.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*
+body {
+    background-color: #85c8ff;
+}
+*/
+
+div {
+    border: 2px black solid;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+div.box-1 {
+    background-color: azure;
+}
+
+div.box-2 {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+div.box-3 {
+    background-color: coral;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.flex-container > div {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    border: 2 px black;
+    background-color: gainsboro;
+}
